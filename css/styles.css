@@ -434,7 +434,8 @@ p {
   color: inherit;
 }
 
-.socials-list .link:hover {
+.socials-list .link:hover,
+.socials-list .link:focus {
   color: var(--white-color);
 }
 
@@ -452,7 +453,8 @@ p {
   opacity: 0;
 }
 
-.socials-list .link:hover::before {
+.socials-list .link:hover::before,
+.socials-list .link:focus::before {
   opacity: 1;
 }
 
@@ -509,7 +511,8 @@ p {
   color: inherit;
 }
 
-.clients-list .link:hover {
+.clients-list .link:hover,
+.clients-list .link:focus {
   border-color: var(--primary-color);
 
   color: var(--primary-color);
